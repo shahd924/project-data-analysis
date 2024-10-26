@@ -1,1 +1,23 @@
+This project aims to analyze the order data of an online store using data analytics tools like seaborn, Pandas, mlxtend to understand customer behavior and orders.
 
+Data Used
+We use a set of files containing different data:
+
+aisles.csv: Information about the aisles in the store.
+departments.csv: Details about the different departments in the store.
+order_products_prior.csv: Information about the products that were previously ordered.
+order_products_train.csv: Training data for orders.
+orders.csv: Information about the orders.
+products.csv: Details about the products.
+Analysis Steps
+Data Collection: Importing data about orders, products, and departments from CSV files.
+Data Exploration: Using head() and info() functions to examine the data and understand its structure.
+Data Cleaning: Removing missing or duplicate values ​​using drop_duplicates() and fillna().
+Applying FP-Growth Algorithm: To extract recurring patterns from large datasets.
+Visualization: Using libraries like Matplotlib and Seaborn to plot graphs to better understand the results.
+
+Results
+The number of products in each section was determined to see which section had the most products.
+The number of orders for each day of the week was analyzed.
+The top five selling products and the bottom five selling products were identified.
+The shopping cart data was analyzed using the FP-Growth algorithm.
